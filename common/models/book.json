@@ -1,0 +1,39 @@
+{
+  "name": "Book",
+  "plural": "Book",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "default": "Network"
+    },
+    "Author": {
+      "type": "string",
+      "required": true,
+      "default": "Mark Ciampa"
+    },
+    "edition": {
+      "type": "string",
+      "required": true,
+      "default": "4th edition"
+    },
+    "publisher": {
+      "type": "string",
+      "required": true,
+      "default": "course tec"
+    },
+    "isbn": {
+      "type": "number",
+      "default": 109938340
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
